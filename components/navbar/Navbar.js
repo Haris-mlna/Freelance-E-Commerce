@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <>
       {/* Navbar */}
-      <nav className="flex items-center w-screen p-4 bg-[#161b33] text-white max-md:justify-between">
+      <nav className="flex items-center w-screen p-4 px-6 bg-[#161b33] text-white max-md:justify-between">
         {/* Menu Mobile */}
         <div className="text-2xl hidden max-md:flex">
           <AiOutlineMenu />
@@ -59,7 +59,7 @@ export default function Navbar() {
       </nav>
       {/* Navbar Ends */}
       {/* Small Parts */}
-      <div className="w-screen max-md:hidden px-4 bg-[#161b33] text-white/40 flex justify-between">
+      <div className="w-screen max-md:hidden px-6 bg-[#161b33] text-white/40 flex justify-between">
         {/* Services etc */}
         <div className="flex">
           <Link
